@@ -1,0 +1,81 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.resume-container {
+    max-width: 800px;
+    margin: 20px auto;
+    background: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid #0073e6;
+    padding-bottom: 10px;
+}
+
+.header h1 {
+    margin: 0;
+    font-size: 24px;
+    color: #0073e6;
+}
+
+.profile-image {
+    width: 100px;
+    height: 100px;
+    border-radius: 8px; 
+    background: #ccc;
+    background-size: cover;
+    background-position: center;
+}
+
+.section {
+    margin-top: 20px;
+}
+
+.section h2 {
+    font-size: 20px;
+    color: #0073e6;
+    border-bottom: 2px solid #0073e6;
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+.skills ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.skills li {
+    margin: 5px 0;
+}
+
+.achievements, .certificates, .projects, .contact {
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+.achievements h2, .certificates h2, .projects h2, .contact h2 {
+    font-size: 18px;
+    color: #0056b3;
+    margin-bottom: 10px;
+}
+
+.contact img {
+    width: 20px;
+    height: 20px;
+    vertical-align: middle;
+    margin-right: 5px;
+}
